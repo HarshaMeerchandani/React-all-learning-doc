@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // with the Default Rfc short cut
 // export default function Greet() {
