@@ -12,6 +12,8 @@ function App() {
         <Greet/>
         <h1>Hello world new</h1>
         <Welcome />
+        <Welcome name="Harsha Meer" />
+        <Welcome marks="34"/>
         <Hello/>
         <Hello a="10"/>
         <Hello b="10"/>
