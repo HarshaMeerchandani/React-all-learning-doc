@@ -81,9 +81,11 @@ class Example extends Component{
     }
 
     changebtntext(){
+      
         this.setState({
             btntext:"thnakyou"
         })
+        console.log(this.state.btntext)
     }
 
     
