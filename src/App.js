@@ -8,6 +8,7 @@ import Company from './Company';
 import Addition from "./Addition"
 import Multiply from './Multiply';
 import Welcome from "./Welcome";
+import Average from './Average';
 function App() {
 // name,age and sal is the properties of component.
   return (
@@ -28,6 +29,9 @@ function App() {
         <Hello/>
         <Hello a="10"/>
         <Hello b="10"/>
+
+
+        <Average/>
           </header>
     </div>
   );
