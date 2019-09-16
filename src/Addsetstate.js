@@ -10,21 +10,21 @@ class Addsetstate extends Component{
         }
     }
 
-    setA = (event) => {
-        this.setState(
-            {
-                a: event.target.value
-            }
-        )
-    }
+    // setA = (event) => {
+    //     this.setState(
+    //         {
+    //             a: event.target.value
+    //         }
+    //     )
+    // }
 
-    setB= ( event) =>{
-        this.setState(
-            {
-                b:event.target.value
-            }
-        )
-    }
+    // setB= ( event) =>{
+    //     this.setState(
+    //         {
+    //             b:event.target.value
+    //         }
+    //     )
+    // }
 
     
     AddNumbers = () =>{
@@ -38,11 +38,13 @@ class Addsetstate extends Component{
     {
         return(
             <div>
-                First Number: <input type="text" onChange={ this.setA } value={ this.state.a } id="first_num"/>
+              {/* /  First Number: <input type="text" onChange={ this.setA } value={ this.state.a } id="first_num"/> */}
+                First Number: <input type="text" onChange={ (event) => this.setState({a:event.target.value})} value={ this.state.a } id="first_num"/>
+
                <br></br>
-                Second Number: <input type="text" onChange={ this.setB } value={ this.state.b } id="second_num"/>
+                Second Number: <input type="text" onChange={(event) => this.setState({b:event.target.value }) } value={ this.state.b } id="second_num"/>
                <br></br>
-               <button onClick={ this.AddNumbers } value={ this.state.a + this.state.b } id="second_num">Addtion </button>
+               <button onClick={ this.AddNumbers } id="second_num">Addtion </button>
                                 <p>
                     The sum is {this.state.c}
                     </p>
