@@ -9,6 +9,8 @@ import Addition from "./Addition"
 import Multiply from './Multiply';
 import Welcome from "./Welcome";
 import Average from './Average';
+import Product from './Product';
+
 function App() {
 // name,age and sal is the properties of component.
   return (
@@ -30,8 +32,9 @@ function App() {
         <Hello a="10"/>
         <Hello b="10"/>
 
-
         <Average/>
+
+        <Product/>
           </header>
     </div>
   );
