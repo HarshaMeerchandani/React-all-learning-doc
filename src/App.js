@@ -10,6 +10,8 @@ import Multiply from './Multiply';
 import Welcome from "./Welcome";
 import Average from './Average';
 import Product from './Product';
+import Cities from './Cities';
+import Addsetstate from './Addsetstate';
 
 function App() {
 // name,age and sal is the properties of component.
@@ -35,6 +37,10 @@ function App() {
         <Average/>
 
         <Product/>
+
+        <Cities/>
+
+        <Addsetstate/>
           </header>
     </div>
   );
