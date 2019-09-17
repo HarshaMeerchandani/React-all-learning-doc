@@ -12,6 +12,8 @@ import Average from './Average';
 import Product from './Product';
 import Cities from './Cities';
 import Addsetstate from './Addsetstate';
+import Student from './Student';
+import Salary from './Salary';
 
 function App() {
 // name,age and sal is the properties of component.
@@ -41,6 +43,10 @@ function App() {
         <Cities/>
 
         <Addsetstate/>
+
+        <Student/>
+
+        <Salary/>
           </header>
     </div>
   );
