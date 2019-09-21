@@ -41,9 +41,7 @@ class Salary extends Component {
         <br></br>
         <button onClick={this.CalculateSalary}>Calculate salary</button>
         <p>
-          Goss Salary:
-          {this.state.da}
-          {this.state.gs}
+          Goss Salary:        {this.state.gs}
         </p>
       </div>
     );

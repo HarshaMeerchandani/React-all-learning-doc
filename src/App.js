@@ -14,6 +14,8 @@ import Cities from './Cities';
 import Addsetstate from './Addsetstate';
 import Student from './Student';
 import Salary from './Salary';
+import Triangle from './Traingle';
+import Actors from './Actors';
 
 function App() {
 // name,age and sal is the properties of component.
@@ -47,6 +49,10 @@ function App() {
         <Student/>
 
         <Salary/>
+
+        <Triangle/>
+
+        <Actors />
           </header>
     </div>
   );

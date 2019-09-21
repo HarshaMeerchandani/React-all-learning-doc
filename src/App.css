@@ -7,7 +7,10 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+table, tr, td {
+  border: 1px solid #fff;
+  font-size: 15px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
